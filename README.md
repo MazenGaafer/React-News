@@ -32,7 +32,7 @@
 ---
 
 ## 📸 صور من الموقع
-![screenshot](public/screenshot.png)
+![screenshot](public/screenshot.PNG)
 
 ---
 
