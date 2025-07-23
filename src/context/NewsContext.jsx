@@ -12,8 +12,8 @@ export function NewsProvider({ children }) {
     const fetchAllNews = async () => {
       try {
         const [generalRes, sportsRes] = await Promise.all([
-          axios.get('https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey=27b72cf6eed44cdcb11855aed93e1c59'),
-          axios.get('https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=27b72cf6eed44cdcb11855aed93e1c59')
+          axios.get('https://gnews.io/api/v4/top-headlines?lang=en&token=2fd4672d98ae88714c15592f0c4daba8'),
+          axios.get('https://gnews.io/api/v4/search?q=sports&lang=en&token=2fd4672d98ae88714c15592f0c4daba8')
         ]);
         setGeneralArticles(generalRes.data.articles);
         setSportsArticles(sportsRes.data.articles);

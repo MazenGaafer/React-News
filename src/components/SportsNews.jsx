@@ -73,9 +73,9 @@ function SportsNews() {
                 backgroundClip: 'padding-box, border-box',
                 animation: 'moveGradient 3s linear infinite',
               }} />
-              {article.urlToImage && (
+              {(article.image || article.urlToImage) && (
                 <img
-                  src={article.urlToImage}
+                  src={article.image || article.urlToImage}
                   alt={article.title}
                   className="card-img-top"
                   style={{ maxHeight: '200px', objectFit: 'cover', borderTopLeftRadius: 16, borderTopRightRadius: 16, zIndex: 1, width: '100%' }}
