@@ -37,17 +37,12 @@
 ---
 
 ## ⚡️ طريقة التشغيل محليًا
-
-1. كلون الريبو:
-   ```bash
-   git clone https://github.com/USERNAME/REPO_NAME.git
-   cd REPO_NAME
-   ```
-2. ثبّت الحزم:
+`
+1. ثبّت الحزم:
    ```bash
    npm install
    ```
-3. شغّل الموقع:
+2. شغّل الموقع:
    ```bash
    npm start
    ```
