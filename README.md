@@ -51,9 +51,9 @@
 ---
 
 ## 📬 تواصل معي
-- [Instagram](https://instagram.com/your_username)
-- [Facebook](https://facebook.com/your_username)
-- [LinkedIn](https://linkedin.com/in/your_username)
+- [Instagram](https://www.instagram.com/_mazen_gaafer_/)
+- [Facebook](https://web.facebook.com/mazen.gaafer.9/)
+- [LinkedIn](https://www.linkedin.com/in/mazen-ga3fer-833a88275/)
 
 ---
 
